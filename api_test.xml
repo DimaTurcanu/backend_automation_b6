@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Regression">
+    <test verbose="2" preserve-order="true" name="All API Test">
+        <classes>
+            <class name="api.scripts.go_rest.GoRest"/>
+            <class name="api.scripts.go_rest.GoRestWithLombok"/>
+            <class name="api.scripts.pet_store.PetStore"/>
+            <class name="api.scripts.tg_school.APIProject02"/>
+            <class name="api.scripts.tg_school.TGApplicationAPI"/>
+        </classes>
+    </test>
+</suite>

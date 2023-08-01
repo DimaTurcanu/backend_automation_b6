@@ -1,0 +1,31 @@
+
+07/18/2023 - API Automation Lombok
+
+
+    Swagger:
+
+        It's an open source tool that offers a documentation for API. So from Swagger, we can get any information we need directly without interacting from the developer tools.
+
+    RestAssured:
+
+        It's a Java library that helps sending request and receiving reposes for the RESTful web services.
+
+    POJO:
+
+        Stands for Plain Old Java Object it's helping us to store Objects from the JSON body and we usually employ encapsulation to create readability and re-usability.
+
+    Serialization:
+
+        It is a process of converting our Java Object to JSON format, so we can use it in our request body. We are reaching serialization using faster.xml Jackson library using its ObjectMapper class.
+
+    De-serialization:
+
+        It is a process of converting JSON object to Java object. So by retrieving each attribute inside the JSON body, we can validate the objects that we need.
+
+    Hamcrest:
+
+        Hamcrest is an assertion library that is integrating well with RestAssured and helping us to chain assertions inside any API call. It's reducing the time and the effort for assertion.
+
+    faster.xml Jackson:
+
+        The tool that is helping us to reach serialization.

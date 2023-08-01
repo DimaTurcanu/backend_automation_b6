@@ -1,0 +1,20 @@
+07-22-2023 - API Automation Apche POI
+
+    
+    Lombok - Project Lombok
+
+        Lombok and its annotation giving us a clean and readible bean POJO classes by writing less code.
+
+        @Data
+
+            The @Data is a special annotation from Project Lombok. It helps us to keep our code clean and tidy
+            
+            By marking a class @Data, you will get:
+            - Automatically generated getter and setter methods for all our variables
+            
+            So, instead of writing all these methods ourselves, we can simply use @Data and it does the work for us!
+
+
+        @Builder
+
+            The @Builder annotation helping us to assign values to our fields in another class without needing creating an object from the class

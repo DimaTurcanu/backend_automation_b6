@@ -1,0 +1,43 @@
+
+    CI/CD Continuous Integration / Continuous Delivery
+
+
+    CI: merging code changes frequently and automatically to a shared repository, ensuring early detection of integration issues.
+
+    CD: automates the software release process, allowing for quick and reliable deployment of tested and validated code to staging or production environments.
+
+    CI/CD Tools
+
+    Github and Github Actions
+    GitLab and GitLan CI
+    Bitbucket
+
+    Jenkins
+    Circle CI
+    Spinakker
+
+
+What is Jenkins and why is it used in CI/CD:
+
+    Jenkins is an open-source automation tool written in Java that provides support for continuous integration, delivery, and deployment pipelines.
+    Jenkins allows programmers to automate parts of their code to be enabling continuous integration and the delivery. it's used because of it's flexibility,
+    and extensive plugin and ecosystem, ease of installation and support for a wide variety of version control system.
+
+
+
+Tell me about your CI/CD process.
+
+    Well, our framework is integrated on BitBucket as a version control system. In each sprint for the user story I assigned, i create my own branch, write my automation
+    scripts and when I'm sure everything is stable and working as its expected, this is where I push my code and create the MR. After I create my merge request, I assign my
+    MR to other QA's as well as our QA lead. Once it's approved, then it's merged into master. Our Jenkins is integrated with our BitBucket repository to run our automation
+    in a specific intervals.
+    In my framework I have mainly 2 suites which is Smoke and Regression. So these suties are defined in the Jobs configuration inside the Jenkins that detailly defines when they will run,
+    who they will report, and in any case of failure to report people who needs get notified. I'm responsible of monitoring and maintaining these 2 jobs, and our Smoke suit runs everyday
+    10 am in the morning, while our regression runs after every sprint or when anything is changed in the developer repository.
+
+
+The role of automated testing in CI/CD. How to configure Jenkins to run tests automatically.
+
+    Automated testing plays a key role in CI/CD by ensuring that new changes do not break existing functionality. This helps catch issues early in the development
+    cycle when they are easier and cheaper fix. Jenkins can be configured to run tests automatically as part of a job. This usually involves adding a "built step" in the job
+    configuration that runs the tests. The specifics in this Jobs configuration will depend on the testing framework we use.

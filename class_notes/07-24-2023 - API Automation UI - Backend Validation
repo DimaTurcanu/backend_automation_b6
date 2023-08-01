@@ -1,0 +1,25 @@
+07-24-2023 - API Automation UI - Backend Validation
+
+    API (Application Programming Interface)
+
+        API is a program that is helping us to create communication between to applications. It is basically exchanging information between two programs.
+
+        Every web services are the API's but not all API is a webservice. What we mean by that ?
+
+    WebServices:
+
+        So, it means that WebServices are working based on the internet. They require to have server and the internet connection to be able to interact with the other servers.
+
+        A set of rules that allows software/hardware programs to share information with each other. Basically, cretes an interaction between two hardware or softwares.
+
+        API Examples:
+
+            - JDBC - It's an API that is allowing us to create connection to interact with the Database.
+
+            - Selenium - It's an API that is allowing us to interact with the browsers.
+
+                * Locators we use inside the selenium to locate the web elements are also considered as an API.
+
+        Postman:
+
+            It's an API testing tool that helps us to retrieve, create or update the dat
